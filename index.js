@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 mongoose
   .connect(
-    `mongodb+srv://prashantp:Anilpp@cluster0.cw6lc.mongodb.net/api-practice?authSource=admin&replicaSet=atlas-lvir0o-shard-0&readPreference=primary&ssl=true`
+    ``
   )
   .then(() => console.log("mongodb connected"))
   .catch((err) => console.log(err));
